@@ -1,0 +1,18 @@
+{
+  "name": "feriados-scraper",
+  "version": "1.0.0",
+  "description": "Nodejs project to get all the non-working days in Argentina",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicmalegre",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
